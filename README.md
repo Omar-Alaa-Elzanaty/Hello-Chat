@@ -6,16 +6,16 @@ Hello-Chat is a real time app proivde single and group chatting with control on 
  ## Features ⚡
  - Real time chatting using **SignalR**
  - Manage message bus between servers using **SignalR backplane** and **Redis**
- - Handle username check using **bloom filter** which provides
-   * Decrease time for checkness.
-   * Solve bottleneck problem during check username from mssql database.
- - Manage media storage and reterive by integrate with ImageKit (third part)
- - Easy to maintenance , testing and expanding as using **clean architecture** for building the project
+ - Handle username check using **bloom filter** which provides.
+   * Decrease time for check.
+   * Solve bottleneck problem during check username from mssql database by check redis first.
+ - Manage media storage and reterive by integrate with ImageKit (third part).
+ - Easy to maintenance, testing and expanding as using **clean architecture** for building the project infrastructure.
 
 ## Software requirements 🖥
   * Dotnet 9
-  * Docker for using redis
   * Sql server
+  * Docker for using redis
 
 ## How to install and run the project?
 ```
