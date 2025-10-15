@@ -19,7 +19,8 @@ Hello-Chat is a real time app proivde single and group chatting with control on 
 
 ## How to install and run the project?
 ```
-git clone https://github.com/Omar-Alaa-Elzanaty/Hello-Chat.git
-cd Hello-Chat/
 docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
+git clone https://github.com/Omar-Alaa-Elzanaty/Hello-Chat.git
+cd Hello-Chat/Hello.API
+dotnet run Hello.API.csproj
 ```
